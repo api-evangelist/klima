@@ -1,24 +1,74 @@
 aid: klima
 name: Klima
-description: 'Klima is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer; climate-energy. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Klima was a Berlin-based consumer climate-action company operated by Climate Labs GmbH,
+  founded in 2019 by Markus Gilles, Jonas Brandau and Andreas Pursian-Ehrlich. Its mobile app let
+  individuals calculate a personal carbon footprint from a lifestyle questionnaire, then offset those
+  emissions through a subscription funding Gold Standard and Verified Carbon Standard projects, with
+  in-app education and reduction tips layered on top. The company raised roughly USD 16.7M across a
+  2020 seed round and a EUR 10M 2022 Series A, backed by HV Capital, Keen Venture Partners, Headline,
+  468 Capital and Adjacent. Klima was acquired by Wren on April 30, 2025; klima.com is now a
+  single-page wind-down notice and the company exposes no public API, developer portal, SDKs or
+  machine-readable artifacts.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/klima.png
 url: https://raw.githubusercontent.com/api-evangelist/klima/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - hv-capital
+x-status: acquired
+x-acquired-by: wren
+x-acquired-date: '2025-04-30'
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Consumer; Climate Energy
+- Climate
+- Carbon Offsetting
+- Sustainability
+- Consumer Applications
+- Mobile
+- Climate Tech
+- Germany
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://klima.com/
+- type: LegalNotice
+  url: https://klima.com/imprint/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/getklima
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Klima_(application)
+- type: Acquisition
+  url: https://www.wren.co/blog/wren-klima-acquisition
+- type: WellKnown
+  url: well-known/klima-well-known.yml
+- type: DomainSecurity
+  url: security/klima-domain-security.yml
+- type: LLMsTxt
+  url: llms/klima-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
