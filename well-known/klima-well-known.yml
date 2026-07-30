@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+source: https://klima.com/
+note: >-
+  klima.com has been reduced to a single-page wind-down notice following the Wren acquisition
+  (2025-04-30). Every path other than / and /imprint/ answers HTTP 302 to https://klima.com/,
+  so no /.well-known/ document is published. Recorded as an honest negative result.
+host: https://klima.com
+documents:
+- path: /.well-known/security.txt
+  status: 302
+  redirect: https://klima.com/
+- path: /.well-known/openid-configuration
+  status: 302
+  redirect: https://klima.com/
+- path: /.well-known/oauth-authorization-server
+  status: 302
+  redirect: https://klima.com/
+- path: /.well-known/api-catalog
+  status: 302
+  redirect: https://klima.com/
+- path: /.well-known/ai-plugin.json
+  status: 302
+  redirect: https://klima.com/
+- path: /llms.txt
+  status: 302
+  redirect: https://klima.com/
+- path: /robots.txt
+  status: 200

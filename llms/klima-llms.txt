@@ -1,0 +1,36 @@
+# Klima (Climate Labs GmbH)
+
+> Klima was a Berlin-based consumer climate-action company whose mobile app let individuals calculate
+> a personal carbon footprint and offset it via a subscription funding Gold Standard and Verified
+> Carbon Standard projects. Founded 2019 by Markus Gilles, Jonas Brandau and Andreas Pursian-Ehrlich;
+> backed by HV Capital, Keen Venture Partners, Headline, 468 Capital and Adjacent. Acquired by Wren
+> on 2025-04-30. Klima publishes no public API, developer portal, SDKs or machine-readable specs;
+> klima.com is now a single-page wind-down notice.
+
+## Status
+
+- [Wren acquires Klima](https://www.wren.co/blog/wren-klima-acquisition): acquisition announcement, 2025-04-30.
+- [Klima](https://klima.com/): remaining single-page notice. All other paths 302 to the root.
+- [Legal notice / Impressum](https://klima.com/imprint/): Climate Labs GmbH, Joachimstraße 7, 10119 Berlin, HRB 209486 B, VAT DE326483090.
+
+## APIs
+
+None. No public API, developer portal, OpenAPI/AsyncAPI specification, SDK, CLI or MCP server was
+found on any Klima surface, registry (npm, PyPI) or GitHub organization as of 2026-07-19.
+
+## Artifacts
+
+- [Well-known index](well-known/klima-well-known.yml): probe of /.well-known/* and /llms.txt — no documents published.
+- [Domain security](security/klima-domain-security.yml): TLS 1.3, HSTS enabled, SPF and DMARC (quarantine) present, no DNSSEC, no CAA.
+
+## Background
+
+- [Klima (application) — Wikipedia](https://en.wikipedia.org/wiki/Klima_(application))
+- [Klima on LinkedIn](https://www.linkedin.com/company/getklima)
+- [TechCrunch: Klima publicly launches its consumer-focused carbon offset app](https://techcrunch.com/2020/12/14/klima-publicly-launches-its-consumer-focused-carbon-offset-app/)
+
+<!--
+generated: '2026-07-19'
+method: generated
+source: apis.yml + repo artifacts + klima.com (no /llms.txt published; returns 302 to root)
+-->
