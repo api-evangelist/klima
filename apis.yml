@@ -9,6 +9,17 @@ description: 'Klima was a Berlin-based consumer climate-action company operated 
   468 Capital and Adjacent. Klima was acquired by Wren on April 30, 2025; klima.com is now a
   single-page wind-down notice and the company exposes no public API, developer portal, SDKs or
   machine-readable artifacts.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
