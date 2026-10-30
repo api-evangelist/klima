@@ -64,20 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Klima (Climate Labs GmbH) was a Berlin-based consumer climate-action company, founded in 2019 by Markus Gilles, Jonas Brandau and Andreas Pursian-Ehrlich. Its mobile app let individuals calculate a personal carbon footprint from a lifestyle questionnaire and offset those emissions through a subscription funding Gold Standard and Verified Carbon Standard projects, alongside in-app climate education and reduction tips.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Klima raised roughly USD 16.7M — a 2020 seed round and a EUR 10M Series A in 2022 — backed by HV Capital, Keen Venture Partners, Headline, 468 Capital and Adjacent.
+Klima was a Berlin-based consumer climate-action company operated by Climate Labs GmbH, founded in 2019 by Markus Gilles, Jonas Brandau and Andreas Pursian-Ehrlich. Its mobile app let individuals calculate a personal carbon footprint from a lifestyle questionnaire, then offset those emissions through a subscription funding Gold Standard and Verified Carbon Standard projects, with in-app education and reduction tips layered on top. The company raised roughly USD 16.7M across a 2020 seed round and a EUR 10M 2022 Series A, backed by HV Capital, Keen Venture Partners, Headline, 468 Capital and Adjacent. Klima was acquired by Wren on April 30, 2025; klima.com is now a single-page wind-down notice and the company exposes no public API, developer portal, SDKs or machine-readable artifacts.
 
-**Status: acquired by [Wren](https://www.wren.co/blog/wren-klima-acquisition) on 2025-04-30.** klima.com is now a single-page wind-down notice; every other path redirects to the root.
+**Areas:** Company · Climate · Carbon Offsetting · Sustainability · Consumer Applications · Mobile · Climate Tech · Germany · Acquired
 
-## API surface
+## Klima on APIs.io (historical record)
 
-None. As of 2026-07-19 no public API, developer portal, API reference, OpenAPI/AsyncAPI specification, SDK, CLI, MCP server or `/.well-known/` document could be found on any Klima surface, in npm/PyPI, or in a GitHub organization. This repo therefore carries identity and probe artifacts only.
+Everything profiled for Klima is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/klima/](https://apis.io/providers/klima/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-- `well-known/klima-well-known.yml` — probe of the `/.well-known/` surface (no documents published)
-- `security/klima-domain-security.yml` — TLS/HSTS/DNS posture probe
-- `llms/klima-llms.txt` — generated llms.txt summary
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Backed by: hv-capital
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Klima Domain Security](https://apis.io/security/klima/klima-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://klima.com/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Klima: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/klima/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
